@@ -1,0 +1,19 @@
+.section1{
+        color:rgba(0, 0, 0.5); /* RGB colour value */
+        background-color:#504508;/* Hex colour valuev*/
+}
+
+#font-style {
+    font-size: 30px;
+    font-weight: bold;
+    font-style:italic;
+    text-decoration: underline;
+}
+
+#font-family{
+    font-family:"product san","Chalkboard","san-serif";
+}
+
+.bold{
+    font-weight: bold;
+}
