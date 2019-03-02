@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "futura","arial","sans-seeif";
+}
+
+.nav-section{
+    height:50px;
+    background-color: #9c27b0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px;
+    transition: all .2s;
+}
+
+.nav-link:hover{
+    border-bottom: 3px white solid;
+}
+
+.nav-link-section {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-header{
+    color:white;
+    font-size:2em
+}
+
+.nav-icon-section {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.nav-icon{
+color:white;
+text-decoration: none;
+}
+
+.nav-icon:hover{
+    color: black
+}
+
+/* image section */
+.image-section {
+    height: 800px;
+    width: 100%;
+    background-image: url("https://photos5.appleinsider.com/gallery/25665-35340-iphone8-productredredred-xl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.image-text {
+    padding-top: 50px;
+    font-size:  2em;
+    color: green;
+    font-weight: bold;
+}

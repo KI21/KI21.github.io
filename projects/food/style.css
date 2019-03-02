@@ -1,0 +1,19 @@
+h1 {
+    text-align:center;
+    color:#d0d9e8;
+}
+
+.heading {
+    background-color:purple;
+    border-radius: 10px;
+    padding: 0.5px 8px;
+
+}
+
+.q{
+    text-align: center;
+}
+
+.w{
+    text-align: center; 
+}
