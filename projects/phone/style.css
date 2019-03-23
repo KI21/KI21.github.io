@@ -10,7 +10,10 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
+
 
 .nav-link{
     color: white;
@@ -32,7 +35,12 @@
 
 .nav-header{
     color:white;
-    font-size:2em
+    font-size:2em;
+    transition: all 10s;
+}
+
+.nav-header:hover {
+    transform: rotate(36000deg);
 }
 
 .nav-icon-section {
@@ -49,11 +57,12 @@ text-decoration: none;
 }
 
 .nav-icon:hover{
-    color: black
+    color: black;
 }
 
 /* image section */
 .image-section {
+    padding-top: 60px;
     height: 800px;
     width: 100%;
     background-image: url("https://photos5.appleinsider.com/gallery/25665-35340-iphone8-productredredred-xl.jpg");
@@ -68,4 +77,67 @@ text-decoration: none;
     font-size:  2em;
     color: green;
     font-weight: bold;
+}
+
+
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card-item {
+    margin: 20px 0px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: color .7s;
+}
+
+.card-item i {
+    font-size: 10em;
+}
+
+.card-link{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.card-item:hover {
+    color: red;
+}
+
+@media (max-width: 800px) {
+    .nav-section {
+        flex-direction: column;
+        height: auto; 
+    }
+    .nav-header{
+        order: -1;
+    }
+    .nav-link-section {
+        margin: 15px 0;
+    }
+    .card-item {
+        width: 30%;
+    }
+}
+
+@media (max-width: 900px) {
+    .image-text {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .image-text {
+        font-size: 20px;
+    }
+
+    .card-item {
+        width: 50%;
+    }
 }
