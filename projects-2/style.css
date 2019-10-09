@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+ {
+    list-style: lower-greek;
+}
+
+table {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+padding: 10px;
+}
+
+a:hover {
+    font-size: 25px;
+    
+}
